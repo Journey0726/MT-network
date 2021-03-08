@@ -19,7 +19,7 @@ export default {
   css: [
     'element-ui/lib/theme-chalk/reset.css',
     'element-ui/lib/theme-chalk/index.css',
-    '~assets/css/main.css'
+     '~assets/css/main.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -31,10 +31,10 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
-  ],
+  // buildModules: [
+  //   // https://go.nuxtjs.dev/eslint
+  //   '@nuxtjs/eslint-module'
+  // ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -49,5 +49,5 @@ export default {
   build: {
     transpile: [/^element-ui/]
   },
-  cache:true
+  cache:false
 }
