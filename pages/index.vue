@@ -5,7 +5,7 @@
      <el-col :span="19">
       <life/>
      </el-col>
-     <el-col :span="24">1</el-col>
+     <el-col :span="24"><artistic/></el-col>
    </el-row>
    <el-row></el-row>
   </div>
@@ -14,9 +14,10 @@
 <script>
 import myMenu from '@/components/index/menu.vue'
 import life from '@/components/index/life.vue'
+import artistic from '@/components/index/artistic.vue'
 export default {
   components:{
-    myMenu,life
+    myMenu,life,artistic
   }
 }
 </script>
